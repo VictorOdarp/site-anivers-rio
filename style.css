@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 193, 207);
+}
+
+.cabecalho {
+    padding: 1% 20%;
+    background-color: rosybrown;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho-menu-link{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.apresentacao{
+    padding: 2% 20%;
+}
+
+.apresentacao-conteudo{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.apresentacao-conteudo h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+strong{
+    color: rosybrown;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.apresentacao-conteudo-imagem{
+    width: 30%;
+    border-radius: 12px;
+}
