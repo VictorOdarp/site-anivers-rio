@@ -5,10 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body{
-    background-color: rgb(230, 193, 207);
+    background-color: black;
 }
 
 .cabecalho {
@@ -41,7 +42,7 @@ body{
 }
 
 .apresentacao-conteudo h1{
-    font-size: 3.5rem;
+    font-size: 3.4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -58,7 +59,7 @@ strong{
 }
 
 .carta {
-    padding: 2% 15%;
+    padding: 1% 15%;
 }
 
 .carta-conteudo{
@@ -70,11 +71,47 @@ strong{
 
 .carta-conteudo h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .carta-conteudo p {
     font-family: Edu AU VIC WA NT Hand, sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
+}
+
+.fotos {
+    padding: 1% 15%;
+}
+
+.fotos-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.fotos-conteudo h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.container-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fotos-conteudo img {
+    width: 32%;
+}
+
+.rodape {
+    width: 100%;
+    background-color: rosybrown;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
 }
